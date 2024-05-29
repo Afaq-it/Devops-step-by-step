@@ -36,6 +36,14 @@
     $ curl -sSL https://install.python-poetry.org | python3 -
 	$ poetry install
     ```
+    For Ubuntu
+    ```
+    $ sudo apt install python3-poetry
+    ```
+    For Windows PowerShell
+    ```
+    $ (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+    ```
     or simply use the `Makefile`
     ```
     $ make init
