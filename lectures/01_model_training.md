@@ -46,7 +46,7 @@
     ```
     or simply use the `Makefile`
     ```
-    $ make init
+    $ poetry init
     ```
 
 2. Activate the virtual environment you just created
